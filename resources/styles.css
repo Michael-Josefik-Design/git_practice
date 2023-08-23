@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: hsl(207, 48%, 18%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+#message {
+    color: rgb(181, 217, 222);
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: hsl(68, 68%, 47%);
+    color: black;
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    font-weight: 700;
+    margin-top: 100px;
+    transition: all 200ms;
+}
+
+button:hover{
+    box-shadow: 0 4px 16px hsl(68, 68%, 47%, 30%);
+}
+
+button:active {
+    background-color: yellow;
+}
